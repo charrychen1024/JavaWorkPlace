@@ -1,0 +1,8 @@
+package com.hellohadoop;
+import java.io.*;
+import java.util.*;
+import org.apache.hadoop.io.*;
+import org.apache.hadoop.mapreduce.*;
+public class TokenizerMapper {
+
+}

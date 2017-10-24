@@ -1,0 +1,22 @@
+package com.imooc;
+import java.util.Scanner;
+public class Helloworld {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("请输入成绩：");
+		int count = 0;
+		int score = input.nextInt();
+		System.out.println("加分前的成绩是："+score);
+	while(score<70){
+		count++;
+		score++;
+	}
+		System.out.println("加分后的成绩是："+score);
+		System.out.println("一共加了"+count+"次");
+		Sys
+
+        
+	
+		
+ }
+}

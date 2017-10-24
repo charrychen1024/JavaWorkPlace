@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Event"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+<fullyQualifiedTypeName name="javax.swing.border.Border"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
+<fullyQualifiedTypeName name="java.awt.event.ComponentAdapter"/>
+<fullyQualifiedTypeName name="java.awt.event.ComponentEvent"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
+<fullyQualifiedTypeName name="chapter11.DBConnection"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapred.lib.InputSampler"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapred.FileSplit"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.fs.Path"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.FileOutputFormat"/>
+<fullyQualifiedTypeName name="javax.xml.soap.Text"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapred.TextOutputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.TextOutputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileSplit"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="seqlist.ILinearList"/>
+<fullyQualifiedTypeName name="seqstack.IStack"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="seqqueue.IQueue"/>
+</qualifiedTypeNameHistroy>

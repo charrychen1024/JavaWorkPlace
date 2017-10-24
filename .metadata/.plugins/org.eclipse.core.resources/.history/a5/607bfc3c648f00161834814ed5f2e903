@@ -1,0 +1,17 @@
+package com.imooc;
+
+public class Helloworld {
+	public static void main(String[] args){
+		int count = 0;
+		int num = 999;
+		while(num != 0){
+			count++;
+			num/=10;
+		}
+		System.out.println("位数是："+count);
+
+        
+	
+		
+ }
+}

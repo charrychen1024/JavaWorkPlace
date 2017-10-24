@@ -1,0 +1,5 @@
+package com.hellohadoop;
+
+public class IntSumReducer {
+
+}

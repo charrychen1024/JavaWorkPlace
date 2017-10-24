@@ -1,0 +1,14 @@
+package com.imooc;
+
+public class Helloworld {
+	public static void main(String[] args){
+		int num = 1;
+		int sum = 0;
+	for(;num <= 100;num++){
+		if(i%3==0){
+			sum = sum + num;
+		}
+		System.out.println("sum = "+sum);
+	}	
+ }
+}

@@ -1,0 +1,43 @@
+package com.hellohadoop;
+
+import java.io.*;
+import org.apache.hadoop.conf.*;
+import org.apache.hadoop.fs.*;
+import org.apache.hadoop.io.*;
+import org.apache.hadoop.mapreduce.*;
+import org.apache.hadoop.mapreduce.lib.input.*;
+import org.apache.hadoop.mapreduce.lib.output.*;
+public class WordCount {
+
+	/**
+	 * @param args
+	 * @throws ClassNotFoundException 
+	 * @throws InterruptedException 
+	 */
+	public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException{
+		// TODO Auto-generated method stub
+		Configuration conf = new Configuration();
+		if(args.length!=2){
+			System.err.println("Usage: wordcount <in> <out>");
+			System.exit(2);
+		}
+		Job job = new Job(conf,"word count");
+		job.setJarByClass(WordCount.class);
+		//指定mapper类
+		job.setMapperClass(TokenizerMapper.class);
+		//指定reducer类
+		job.setReducerClass(IntSumReducer.class);
+		//设置reduce函数输出key的类
+		job.setOutputKeyClass(Text.class);
+		//设置reduce函数输出value的类
+		job.setOutputValueClass(IntWritable.class);
+		//指定输入路径
+		FileInputFormat.addInputPath(job, new Path(args[0]));
+		//指定输出路径
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		//提交任务
+		System.exit(job.waitForCompletion(true) ? 0:1);
+
+	}
+
+}

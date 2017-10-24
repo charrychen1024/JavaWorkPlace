@@ -1,0 +1,24 @@
+package com.imooc;
+
+public class Helloworld {
+	public static void main(String[] args){
+		char today = '2';
+		switch (today){
+		  case 1:
+		  case 3:
+		  case 5:
+			  System.out.println("早上吃包子");
+			  break;
+		  case 2:
+		  case 4:
+		  case 6:
+			  System.out.println("早上吃油条");
+			  break;
+		  default:
+		     System.out.println("主席套餐");
+		  
+			
+		}
+	}
+	
+}
